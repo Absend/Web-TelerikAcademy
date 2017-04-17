@@ -1,0 +1,23 @@
+header {
+	border-bottom: 2px solid black;
+	margin-bottom: 10px;
+}
+
+.main {
+	display: flex;
+}
+
+#map, #info {
+	border: 1px solid black;
+	margin: 2px;
+	padding: 2px;
+	height: 430px;
+}
+
+#map {
+	flex: 2;
+}
+
+#info {
+	flex: 1;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Geo Location</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<header>
+		<h1>Task 1. GeoLocation</h1>
+		<p>
+			Write script that gets the users location and renders a image with the map of that location. Use ES2015 Promise
+		</p>
+		<p>
+			You need a google maps api key for this task. It's free and takes 30 secs provided you've got an existing google account. Insert your key in the url of index.html script tag - API_KEY<br>
+		</p>
+	</header>
+
+	<main class="main">
+		<div id="map"></div>
+		<div id="info"></div>
+	</main>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=geolocation" async defer></script>
+
+	<script src="./index.js"></script>
+</body>
+
+</html>
