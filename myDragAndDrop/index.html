@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Drag and drop</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="div-dd">
+			<ul>
+				<li>
+					<img class="image-obj" src="./img0.png" alt="image" width="150px" height="150px">
+				</li>
+			</ul>
+		</div>
+		<div class="div-dd">
+
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="./index.js"></script>
+	<script>
+		dragAndDrop(".image-obj", ".div-dd");
+	</script>
+</body>
+
+</html>

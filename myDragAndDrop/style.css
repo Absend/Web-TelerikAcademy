@@ -1,0 +1,15 @@
+ul {
+	list-style-type: none;
+}
+
+#wrapper div {
+	display: inline-block;
+	width: 350px;
+	height: 350px;
+	border: 2px solid black;
+}
+
+.image-obj {
+	display: inline-block;
+	margin: 3px;
+}
