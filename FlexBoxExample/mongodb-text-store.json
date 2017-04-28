@@ -1,0 +1,3 @@
+{
+	"mongodbConnection": "mongodb://Admin:1qazxsw2@ds119220.mlab.com:19220/gallery-data-db"
+}
