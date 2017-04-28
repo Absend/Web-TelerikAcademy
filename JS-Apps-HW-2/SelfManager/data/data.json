@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "username": "Doncho",
+      "passHash": "4cb5ba2355368d4dfd14c9eee9a134791f7001cb",
+      "usernameLower": "doncho",
+      "authKey": "undefined+tusvd@Kh_@ixbA*Q$fvLmq(CJJmu*DN%E^i@OUr&eoAJn!*uak",
+      "id": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+      "events": [
+        {
+          "id": 449037,
+          "title": "Test",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        },
+        {
+          "id": 449037,
+          "title": "Test",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        },
+        {
+          "id": 792579,
+          "title": "Test",
+          "category": "Free time",
+          "description": "",
+          "date": "2015-09-17T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        }
+      ],
+      "todos": [
+        {
+          "id": 27882,
+          "text": "qwe",
+          "state": true,
+          "category": "Home"
+        },
+        {
+          "id": 365117,
+          "text": "NEW TODO",
+          "state": false,
+          "category": "Home"
+        }
+      ]
+    },
+    {
+      "username": "Cuki",
+      "passHash": "6edbb5c948d25789eccdfb37b70ff7f728f49786",
+      "usernameLower": "cuki",
+      "authKey": "undefinedLcy$^v^zXyoxyXQ_BbAJIRYwi%KiGGlD^ry+-N@AIwpP%EhOAUK",
+      "id": "f2c8726a-773e-403c-ad76-37dad93c9a8c"
+    },
+    {
+      "username": "Cuki2",
+      "passHash": "dfacf7f490d8e38e7895caad02e3693236216f51",
+      "usernameLower": "cuki2",
+      "authKey": "undefinedTZvCUbyZH(!=m-+)$fcAjzD)NPiWfGt(r!MHSzrCPAb(nGfp%*!",
+      "id": "1987f231-b978-49de-a5eb-d3f57f1f6fa6"
+    },
+    {
+      "username": "Cuki3",
+      "passHash": "05e18f169bb85da8722deb800fa8e3898c809146",
+      "usernameLower": "cuki3",
+      "authKey": "undefined&a*=xajP_XX&NIPuGIJIgcTfFWlZ&#BdA*zD*@TUUvNc^TmOfw(",
+      "id": "22402c86-f18e-4689-9fc3-237205fad856"
+    },
+    {
+      "email": "brado@abv.bg",
+      "username": "brado",
+      "password": "0245c1aaae4da871883444d8b126a069",
+      "usernameLower": "brado",
+      "authKey": "undefinedUYBJMWsjuC_FaUSuLabdJssAL_ld(N+gVohC@%MpAvoKEv^LG&P",
+      "id": "0a61b698-d482-4fae-a44d-1bbf56442bf9",
+      "events": [],
+      "todos": [
+        {
+          "id": 229198,
+          "text": "Have to go shopping.",
+          "state": true,
+          "category": "Free time"
+        },
+        {
+          "id": 312940,
+          "text": "go out of Sofia",
+          "state": true,
+          "category": "weekend"
+        },
+        {
+          "id": 385729,
+          "text": "sadasas",
+          "state": true,
+          "category": "Fun"
+        }
+      ]
+    },
+    {
+      "email": "brado@abv.bg",
+      "username": "kas",
+      "password": "6b6ad8a841a127c7b3d6b7910e9ad622",
+      "usernameLower": "kas",
+      "authKey": "undefined^(KKOdSdTFH#@@^lcFBiFxKGl+Vl@^YYkLwVG&^mUCMOasMKJb-",
+      "id": "5ae3e7c3-f96b-475e-bbcd-2f699a5385d8"
+    },
+    {
+      "email": "brado1@abv.bg",
+      "username": "Wasterapirautpong",
+      "password": "0245c1aaae4da871883444d8b126a069",
+      "usernameLower": "wasterapirautpong",
+      "authKey": "undefined@%*d=pE%vBSEiFjHR^QJxFNsU@^oorBNDRlmpWJbx&tu!HLyBYt",
+      "id": "e98d055e-0c2e-4a4b-b0c4-3b2b6a58b8da"
+    },
+    {
+      "email": "mish0@abv.bg",
+      "username": "misho",
+      "password": "0245c1aaae4da871883444d8b126a069",
+      "usernameLower": "misho",
+      "authKey": "undefinedd$DODUdrbAF^kz@YTrjyZDKvIsXbgrquKQtjDTpzuEM)ua)t=Aa",
+      "id": "b0de5612-1cf1-4f12-bcbd-145d36a570d2",
+      "events": []
+    }
+  ]
+}

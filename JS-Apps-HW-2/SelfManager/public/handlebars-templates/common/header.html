@@ -1,0 +1,27 @@
+<nav class="navbar navbar-inverse navbar-fixed-top nav-header">
+	<div class="navbar-header">
+		<button class="btn btn-navbar navbar-toggle nav-colapse-btn" data-toggle="collapse" data-target="#navbar-links">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a id="brand" class="navbar-brand" href="#/home"><img src="./assets/images/logo.png" alt="" width="120px"></a>
+	</div>
+	<div id="navbar-links" class="collapse navbar-collapse">
+		<ul class="nav navbar-nav nav-right">
+			<li onclick="$('.navbar-collapse').collapse('hide');"><a class="main-link" href="#/home">HOME</a></li>
+			<li onclick="$('.navbar-collapse').collapse('hide');"><a id="todoz" class="main-link" href="#/todos">TODOs</a></li>
+			<li onclick="$('.navbar-collapse').collapse('hide');"><a id="eventz" class="main-link" href="#/events">EVENTs</a></li>
+			<li onclick="$('.navbar-collapse').collapse('hide');">
+				{{#if isLogged}}
+				<a id="log-forms-link" class="main-link auth" href="#/signout">Sign out</a> {{/if}} {{#unless isLogged}}
+				<a id="log-forms-link" class="main-link auth" href="#/signin">Sign in / Sign up</a> {{/unless}}
+			</li>
+		</ul>
+	</div>
+	{{#if isLogged}}
+	<h1><span id="user-name-view">{{username}}</span></h1>{{/if}}
+	{{#unless isLogged}}
+	<h1><span id="user-name-view"></span></h1>{{/unless}}
+</nav>

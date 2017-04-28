@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Self Manager</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="./assets/images/logo.png" rel="icon">
+	<link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="./bower_components/toastr/toastr.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<div id="content" class="main-children">
+				<div id="loading-container">
+					<div id="loading">
+						<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+						<span class="sr-only">Loading...</span>
+					</div>
+				</div>
+			</div>
+			<aside id="content-aside" class="main-children">
+
+			</aside>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+
+	<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="./bower_components/handlebars/handlebars.min.js"></script>
+	<script src="./bower_components/navigo/lib/navigo.min.js"></script>
+	<script src="./bower_components/toastr/toastr.min.js"></script>
+	<script src="./bower_components/cryptojslib/rollups/md5.js"></script>
+	<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<script src="./js/data/requester.js"></script>
+	<script src="./js/view/template-loader.js"></script>
+	<script src="./js/service/notifier.js"></script>
+	<script src="./js/service/validator.js"></script>
+	<script src="./js/service/hash.js"></script>
+
+	<script src="./js/data/data.js"></script>
+	<script src="./js/view/view.js"></script>
+
+	<script src="./js/dom.js"></script>
+
+	<script src="./js/service/user-controller.js"></script>
+	<script src="./js/service/main-controller.js"></script>
+
+	<script src="./js/router.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>

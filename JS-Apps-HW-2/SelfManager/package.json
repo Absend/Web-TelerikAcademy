@@ -1,0 +1,23 @@
+{
+  "name": "self-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "node app.js"
+  },
+  "author": "Doncho Minkov (DonchoMinkov@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "font-awesome": "^4.7.0",
+    "lodash": "^3.10.1",
+    "lowdb": "^0.10.2",
+    "underscore-db": "^0.9.0"
+  },
+  "devDependencies": {
+    "openurl": "^1.1.1"
+  }
+}

@@ -1,0 +1,12 @@
+<div class="todo-container">
+	<div class="todo">
+		<h3>Category: {{data.category}}</h3>
+		{{#if data.state}}
+		<h4>State: Done</h4>
+		{{/if}} {{#unless data.state}}
+		<h4>State: Waiting</h4>
+		{{/unless}}
+		<p>TODO: {{data.text}}</p>
+	</div>
+	<a href="" class="btn btn-info">Change state</a>
+</div>
